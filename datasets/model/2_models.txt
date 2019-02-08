@@ -1,0 +1,89 @@
+{
+	"op_7": {
+		"operator_title": "Dropout",
+		"seed": "None",
+		"fraction_to_drop": "0.1",
+		"tb_button_7": "on",
+		"noise_shape": "None"
+	},
+	"op_4": {
+		"operator_title": "Dropout",
+		"seed": "None",
+		"fraction_to_drop": "0.1",
+		"tb_button_6": "on",
+		"noise_shape": "None"
+	},
+	"op_6": {
+		"tb_button_2": "on",
+		"operator_title": "Dense",
+		"input_dimention": "None",
+		"activation": "relu",
+		"bias_constraint": "None",
+		"weight_initialization_function": "zero",
+		"activitiy_regularizer": "None",
+		"output_dimentions": "128",
+		"weight": "None",
+		"weights": "None",
+		"bias_regularizer": "None",
+		"bias": "None",
+		"regularizer_for_input_wegiht": "None"
+	},
+	"op_3": {
+		"strides": "None",
+		"dimension_ordering": "default",
+		"pool_size": "2",
+		"border_mode": "valid",
+		"operator_title": "Maxpooling2D",
+		"tb_button_5": "on"
+	},
+	"op_8": {
+		"operator_title": "OutputLayer",
+		"output_port": "output_port",		
+		"activation": "softmax",
+		"classes" : "10"
+	},
+	"op_5": {
+		"operator_title": "Flatten" 
+	},
+	"op_0": {
+		"dimention_ordering": "default",
+		"operator_title": "InputLayer",
+		"input_port": "input_port"
+	},
+	"op_1": {
+		"regularizer_for_input_weight": "None",
+		"number_of_filters": "32",
+		"activity_regularizer": "None",
+		"tb_button_3": "on",
+		"border_mode": "valid",
+		"operator_title": "Convolution2D",
+		"weight_constraint": "None",
+		"activation": "relu",
+		"weight_initialization_function": "zero",
+		"dimension_ordering": "default",
+		"weight": "None",
+		"subsampling": "(1, 1)",
+		"filter_columns": "3",
+		"bias_regularizer": "None",
+		"bias": "true",
+		"filter_rows": "3"
+	},
+	"op_2": {
+		"regularizer_for_input_weight": "None",
+		"number_of_filters": "64",
+		"activity_regularizer": "None",
+		"tb_button_4": "on",
+		"border_mode": "valid",
+		"operator_title": "Convolution2D",
+		"weight_constraint": "None",
+		"activation": "relu",
+		"weight_initialization_function": "zero",
+		"dimension_ordering": "default",
+		"weight": "None",
+		"subsampling": "(1, 1)",
+		"filter_columns": "3",
+		"bias_regularizer": "None",
+		"bias": "true",
+		"filter_rows": "3"
+	}
+}

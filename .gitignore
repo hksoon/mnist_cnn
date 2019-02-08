@@ -1,0 +1,4 @@
+datasets/train-images
+datasets/test-images
+.idea
+__pycache__
